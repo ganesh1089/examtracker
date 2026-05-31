@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | Exam Tracker</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#4f46e5">
+    <link rel="stylesheet" href="./css/dashboard.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- HEADER -->
+    <div class="header">
+
+        <div class="header-top">
+
+            <div>
+                <h1>📚 Exam Preparation Tracker</h1>
+                <p>Your Smart Study Companion</p>
+            </div>
+
+            <button id="logoutBtn" class="logout-btn">
+                Logout
+            </button>
+
+        </div>
+
+        <!-- USER -->
+        <div class="user-box" id="userBox">
+            Welcome, Guest 👋
+        </div>
+
+    </div>
+
+    <!-- TODAY TARGET -->
+    <div class="target-card">
+
+        <h2>🎯 Today's Target</h2>
+
+        <div class="target-info">
+
+            <div>
+                <strong>Exam:</strong>
+                <span id="selectedExamName">
+                    Not Selected
+                </span>
+            </div>
+
+            <div>
+                <strong>Daily Goal:</strong>
+                <span id="dailyGoal">
+                    10 Topics
+                </span>
+            </div>
+
+        </div>
+
+        <button id="continueBtn" class="continue-btn">
+            Continue Study →
+        </button>
+
+    </div>
+
+    <!-- SEARCH -->
+    <div class="search-box">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search Exam..."
+        >
+
+    </div>
+
+    <!-- EXAM GRID -->
+    <div class="exam-grid" id="examGrid"></div>
+
+</div>
+
+<!-- Exams Data -->
+<script src="./data/exams.js"></script>
+
+<!-- Dashboard Logic -->
+<script src="./js/dashboard.js"></script>
+<script src="./js/pwa.js"></script>
+</body>
+</html>

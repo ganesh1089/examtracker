@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Set Daily Target</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#4f46e5">
+<link rel="stylesheet" href="./css/target_setup.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="card">
+
+        <h1>🎯 Set Your Daily Goal</h1>
+
+        <p>Select your target exam and daily study goal.</p>
+
+        <select id="exam">
+            <option value="">Select Exam</option>
+            <option value="UP Police">UP Police</option>
+            <option value="SSC GD">SSC GD</option>
+            <option value="Delhi Police">Delhi Police</option>
+            <option value="UPSI">UPSI</option>
+        </select>
+
+        <h3>Topics Per Day</h3>
+
+        <div class="targets">
+
+            <button class="target-btn" data-value="5">5</button>
+
+            <button class="target-btn" data-value="10">10</button>
+
+            <button class="target-btn" data-value="15">15</button>
+
+            <button class="target-btn" data-value="20">20</button>
+
+        </div>
+
+        <button id="saveBtn">
+            Save & Continue
+        </button>
+
+    </div>
+
+</div>
+
+<script src="./js/target_setup.js"></script>
+<script src="./js/pwa.js"></script>
+</body>
+</html>

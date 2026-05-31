@@ -40,7 +40,7 @@ document
     );
 
     const res = await fetch(
-        "http://localhost:5000/api/user/setup",
+        "https://examtracker-fur6.onrender.com/api/user/setup",
         {
             method: "POST",
             headers: {

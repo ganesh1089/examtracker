@@ -109,7 +109,7 @@ function saveProgress(topicKey, status) {
 
     if (!userId) return;
 
-    fetch("http://localhost:5000/api/progress/save", {
+    fetch("https://examtracker-fur6.onrender.com/api/progress/save", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -147,7 +147,7 @@ radios.forEach(radio => {
 
 if (userId) {
 
-    fetch(`http://localhost:5000/api/progress/${userId}`)
+    fetch(`https://examtracker-fur6.onrender.com/api/progress/${userId}`)
         .then(res => res.json())
         .then(data => {
 
@@ -220,7 +220,7 @@ saveBtn.addEventListener("click", () => {
 
     checkedRadios.forEach(radio => {
 
-        fetch("http://localhost:5000/api/progress/save", {
+        fetch("https://examtracker-fur6.onrender.com/api/progress/save", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

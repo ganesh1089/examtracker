@@ -20,10 +20,12 @@ document.getElementById(
 ).addEventListener(
 "click",
 ()=>{
-alert("Practice Section Coming Soon 🚀");
+
+window.location.href =
+"questions.html"; // यही questions page open होगा
+
 }
 );
-
 document.getElementById(
 "checklistCard"
 ).addEventListener(

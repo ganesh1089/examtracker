@@ -1583,13 +1583,13 @@ Exact Person Unknown → Indefinite Pronoun
 <p>
 <b>Reflexive:</b><br>
 I hurt myself.<br>
-(मैंने खुद को चोट पहुँचाई)
+(मैंने खुद को चोट पहुँचाई, यदि इस sentence से myself हटा दिया जाए तो <b>मैंने चोट पहुँचाई</b> रह जाएगा जो गलत है इसलिए Reflexive Pronoun में Myself,Himself,Herself आदि जरूरी होते हैं)
 </p>
 
 <p>
 <b>Emphatic:</b><br>
 I myself completed the project.<br>
-(मैंने खुद ही project पूरा किया)
+(मैंने खुद ही project पूरा किया ,  यदि इस sentence में से myself हटा दिया जाए तो <b>मैंने project पूरा किया</b> रह जाएगा जो सही है इसलिए Emphatic Pronoun में Myself,Himself,Herself आदि जरूरी नहीं होते हैं केवल जोर देने का काम करते हैं |)
 </p>
 
 <hr>

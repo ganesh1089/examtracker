@@ -1,0 +1,133 @@
+/* ================= BODY ================= */
+
+body{
+margin:0;
+font-family:'Poppins', sans-serif;
+background: linear-gradient(135deg,#eef2ff,#f5f7fb);
+color:#222;
+}
+
+/* ================= MAIN CONTAINER ================= */
+
+.container{
+max-width:900px;
+margin:auto;
+padding:20px;
+}
+
+/* ================= TITLE ================= */
+
+h1{
+text-align:center;
+font-size:28px;
+font-weight:800;
+color:#4f46e5;
+margin-bottom:20px;
+letter-spacing:0.5px;
+}
+
+/* ================= CONTENT BOX ================= */
+
+#content{
+background:white;
+padding:25px;
+border-radius:18px;
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
+
+/* IMPORTANT → scroll friendly */
+max-height:75vh;
+overflow-y:auto;
+
+line-height:1.8;
+font-size:16px;
+}
+
+/* ================= CUSTOM SCROLLBAR ================= */
+
+#content::-webkit-scrollbar{
+width:8px;
+}
+
+#content::-webkit-scrollbar-track{
+background:#f1f1f1;
+border-radius:10px;
+}
+
+#content::-webkit-scrollbar-thumb{
+background:#4f46e5;
+border-radius:10px;
+}
+
+/* ================= HEADINGS ================= */
+
+#content h2{
+color:#4f46e5;
+font-size:22px;
+font-weight:800;
+margin-top:20px;
+padding-left:10px;
+border-left:5px solid #4f46e5;
+background:#eef2ff;
+padding:8px 10px;
+border-radius:8px;
+}
+
+#content h3{
+color:#16a34a;
+font-size:18px;
+font-weight:700;
+margin-top:15px;
+}
+
+/* ================= PARAGRAPH ================= */
+
+#content p{
+margin:10px 0;
+color:#333;
+}
+
+/* ================= LIST ================= */
+
+#content ul{
+padding-left:22px;
+margin:10px 0;
+}
+
+#content ul li{
+margin-bottom:8px;
+padding:6px 10px;
+background:#f8fafc;
+border-left:3px solid #4f46e5;
+border-radius:6px;
+}
+
+/* ================= STRONG TEXT ================= */
+
+#content b{
+color:#000;
+font-weight:700;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:600px){
+
+.container{
+padding:10px;
+}
+
+#content{
+padding:18px;
+font-size:15px;
+max-height:80vh;
+}
+
+h1{
+font-size:22px;
+}
+
+#content h2{
+font-size:18px;
+}
+
+}

@@ -1,0 +1,55 @@
+body{
+margin:0;
+font-family:Poppins,sans-serif;
+background:#f5f7fb;
+}
+
+.container{
+max-width:500px;
+margin:auto;
+padding:20px;
+}
+
+h1{
+text-align:center;
+margin:20px 0 30px;
+}
+
+.card{
+background:#fff;
+height:90px;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+margin-bottom:15px;
+
+border-radius:16px;
+
+font-size:18px;
+font-weight:600;
+
+cursor:pointer;
+
+box-shadow:
+0 4px 12px rgba(0,0,0,.08);
+
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-3px);
+}
+
+#notesCard{
+border-left:6px solid #3b82f6;
+}
+
+#tricksCard{
+border-left:6px solid #10b981;
+}
+
+#formulaCard{
+border-left:6px solid #f59e0b;
+}

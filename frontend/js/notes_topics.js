@@ -1,5 +1,5 @@
 // ==========================================
-// Get Selected Exam
+// Get Selected Exam & Subject
 // ==========================================
 
 const examName =
@@ -7,49 +7,47 @@ localStorage.getItem(
 "selectedExam"
 );
 
-const exam =
-exams.find(
-e => e.name === examName
+const subjectName =
+localStorage.getItem(
+"selectedSubject"
 );
 
 // ==========================================
-// Show Exam Name
+// Page Title
 // ==========================================
 
 document.getElementById(
-"examTitle"
+"pageTitle"
 ).textContent =
-exam.name;
+`${subjectName} Notes`;
 
 // ==========================================
-// Subject Container
+// Container
 // ==========================================
 
 const container =
 document.getElementById(
-"subjectsContainer"
+"topicsContainer"
 );
 
 // ==========================================
-// Render Subjects Only
+// Get Notes Data
 // ==========================================
 
-for(
-const subject in exam.subjects
-){
+const topics =
+notesData?.[examName]?.[subjectName];
 
-container.innerHTML += `
+// ==========================================
+// No Data Found
+// ==========================================
 
-<div
-class="subject-card"
-data-subject="${subject}"
->
+if(!topics){
 
-    <div class="subject-header">
+container.innerHTML = `
 
-        📚 ${subject}
+<div class="topic-card">
 
-    </div>
+Notes Coming Soon 🚀
 
 </div>
 
@@ -58,12 +56,37 @@ data-subject="${subject}"
 }
 
 // ==========================================
-// Open Subject Page
+// Render Topic Cards
+// ==========================================
+
+else{
+
+for(
+const topicName in topics
+){
+
+container.innerHTML += `
+
+<div
+class="topic-card"
+data-topic="${topicName}"
+>
+
+📘 ${topicName}
+
+</div>
+
+`;
+
+}
+
+// ==========================================
+// Open Notes Page
 // ==========================================
 
 document
 .querySelectorAll(
-".subject-card"
+".topic-card"
 )
 .forEach(card=>{
 
@@ -71,18 +94,16 @@ card.addEventListener(
 "click",
 ()=>{
 
-// Save Selected Subject
-
 localStorage.setItem(
-"selectedSubject",
-card.dataset.subject
+"selectedTopic",
+card.dataset.topic
 );
 
-// Open Subject Page
-
 window.location.href =
-"subject_menu.html";
+"notes.html";
 
 });
 
 });
+
+}

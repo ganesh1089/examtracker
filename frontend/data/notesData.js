@@ -5,11 +5,8 @@ const notesData = {
     English: {
 
       "Basic Knowledge": {
-
         title: "Zero to Hero in English",
-
-        content: `
-<h1>📘 Alphabets , Words & Sentences</h1>
+        content: `<h1>📘 Alphabets , Words & Sentences</h1>
 
 <h2>1. Alphabet</h2>
 
@@ -130,16 +127,12 @@ Sentence शब्दों का ऐसा समूह होता है �
 
 <p>
 This is the foundation of English. Once you understand this, grammar becomes very easy.
-</p>
-`
+</p>`
       },
 
       "Subject Verb Object": {
-
         title: "Zero to Hero in English",
-
-        content: `
-<h1>📘 Subject, Verb and Object (SVO)</h1>
+        content: `<h1>📘 Subject, Verb and Object (SVO)</h1>
 <h2>📌 Introduction</h2>
 <p>
 <b>English:</b><br>
@@ -217,122 +210,121 @@ Object वह होता है जिस पर action(कार्य) क�
 <li>Focus on subject-verb agreement questions.</li>
 <li>Learn passive-active voice conversion well.</li>
 <li>Solve previous year questions.</li>
-</ul>
-`
+</ul>`
+      },
+
+      "Parts of Speech Overview": {
+        title: "Parts of Speech Overview",
+        content: `WRITE CONTENT HERE`
+      },
+
+      "Noun": {
+        title: "Noun",
+        content: `WRITE CONTENT HERE`
+      },
+
+      "Pronoun": {
+        title: "Pronoun",
+        content: `WRITE CONTENT HERE`
+      },
+
+      "Adjective": {
+        title: "Adjective",
+        content: `WRITE CONTENT HERE`
+      },
+
+      "Verb": {
+        title: "Verb",
+        content: `WRITE CONTENT HERE`
+      },
+
+      "Adverb": {
+        title: "Adverb",
+        content: `WRITE CONTENT HERE`
+      },
+
+      "Preposition": {
+        title: "Preposition",
+        content: `WRITE CONTENT HERE`
+      },
+
+      "Conjunction": {
+        title: "Conjunction",
+        content: `WRITE CONTENT HERE`
+      },
+
+      "Interjection": {
+        title: "Interjection",
+        content: `WRITE CONTENT HERE`
+      },
+
+      "Articles (A, An, The)": {
+        title: "Articles (A, An, The)",
+        content: `WRITE CONTENT HERE`
+      },
+
+      "Tense": {
+        title: "Tense",
+        content: `WRITE CONTENT HERE`
+      },
+
+      "Subject Verb Agreement": {
+        title: "Subject Verb Agreement",
+        content: `WRITE CONTENT HERE`
+      },
+
+      "Voice": {
+        title: "Voice",
+        content: `WRITE CONTENT HERE`
+      },
+
+      "Narration": {
+        title: "Narration",
+        content: `WRITE CONTENT HERE`
+      },
+
+      "Error Detection": {
+        title: "Error Detection",
+        content: `WRITE CONTENT HERE`
+      },
+
+      "Sentence Improvement": {
+        title: "Sentence Improvement",
+        content: `WRITE CONTENT HERE`
+      },
+
+      "Cloze Test": {
+        title: "Cloze Test",
+        content: `WRITE CONTENT HERE`
+      },
+
+      "Reading Comprehension": {
+        title: "Reading Comprehension",
+        content: `WRITE CONTENT HERE`
+      },
+
+      "One Word Substitution": {
+        title: "One Word Substitution",
+        content: `WRITE CONTENT HERE`
+      },
+
+      "Idioms & Phrases": {
+        title: "Idioms & Phrases",
+        content: `WRITE CONTENT HERE`
+      },
+
+      "Synonyms": {
+        title: "Synonyms",
+        content: `WRITE CONTENT HERE`
+      },
+
+      "Antonyms": {
+        title: "Antonyms",
+        content: `WRITE CONTENT HERE`
       }
 
     }
 
-  },
-
- "Parts of Speech Overview": {
-    title: "Parts of Speech Overview",
-    content: ``
-  },
-
-  "Noun": {
-    title: "Noun",
-    content: ``
-  },
-
-  "Pronoun": {
-    title: "Pronoun",
-    content: ``
-  },
-
-  "Adjective": {
-    title: "Adjective",
-    content: ``
-  },
-
-  "Verb": {
-    title: "Verb",
-    content: ``
-  },
-
-  "Adverb": {
-    title: "Adverb",
-    content: ``
-  },
-
-  "Preposition": {
-    title: "Preposition",
-    content: ``
-  },
-
-  "Conjunction": {
-    title: "Conjunction",
-    content: ``
-  },
-
-  "Interjection": {
-    title: "Interjection",
-    content: ``
-  },
-
-  "Articles (A, An, The)": {
-    title: "Articles (A, An, The)",
-    content: ``
-  },
-
-  "Tense": {
-    title: "Tense",
-    content: ``
-  },
-
-  "Subject Verb Agreement": {
-    title: "Subject Verb Agreement",
-    content: ``
-  },
-
-  "Voice": {
-    title: "Voice",
-    content: ``
-  },
-
-  "Narration": {
-    title: "Narration",
-    content: ``
-  },
-
-  "Error Detection": {
-    title: "Error Detection",
-    content: ``
-  },
-
-  "Sentence Improvement": {
-    title: "Sentence Improvement",
-    content: ``
-  },
-
-  "Cloze Test": {
-    title: "Cloze Test",
-    content: ``
-  },
-
-  "Reading Comprehension": {
-    title: "Reading Comprehension",
-    content: ``
-  },
-
-  "One Word Substitution": {
-    title: "One Word Substitution",
-    content: ``
-  },
-
-  "Idioms & Phrases": {
-    title: "Idioms & Phrases",
-    content: ``
-  },
-
-  "Synonyms": {
-    title: "Synonyms",
-    content: ``
-  },
-
-  "Antonyms": {
-    title: "Antonyms",
-    content: ``
   }
 
 };
